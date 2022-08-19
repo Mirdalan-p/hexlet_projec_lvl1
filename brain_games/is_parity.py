@@ -26,6 +26,10 @@ def parity_check():
                 print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
             elif answer_is == 'no' and random_num %2 == 0:
                 print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+            elif answer_is != 'yes' or 'no' and random_num % 2 == 0:
+                print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+            elif answer_is != 'yes' or 'no' and random_num % 2 != 0:
+                print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
             correct_answ_count = 0
     print(f"Congratulations, {name}!")
 
