@@ -1,4 +1,3 @@
-from email.headerregistry import AddressHeader
 import prompt
 from random import randint
 
