@@ -3,7 +3,7 @@ import prompt
 from random import randint
 
 
-print("brain-games\nWelcome to the Brain Games!")
+print("brain-even\nWelcome to the Brain Games!")
 name = prompt.string('May I have your name? ')
 print(f"Hello, {name}!")
 
