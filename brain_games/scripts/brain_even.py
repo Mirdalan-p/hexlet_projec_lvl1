@@ -1,7 +1,12 @@
+#!/usr/bin/env python3
+from random import randint
 import prompt
+from brain_games.is_parity import parity_check
 
 
-def welcome_user():
-    print("brain-games\nWelcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f"Hello, {name}!")
+def main():
+    parity_check()
+
+
+if __name__ == '__main__':
+    main()
