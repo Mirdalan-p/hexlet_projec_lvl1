@@ -9,7 +9,7 @@ print(f"Hello, {name}!")
 
 def parity_check():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    correct_answ_count = 0 
+    correct_answ_count = 0
     while correct_answ_count < 3:
         random_num = randint(1, 100)
         print(f'Question: {random_num}')
@@ -23,7 +23,7 @@ def parity_check():
         else:
             if answer_is == 'yes' and random_num % 2 != 0:
                 print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
-            elif answer_is == 'no' and random_num %2 == 0:
+            elif answer_is == 'no' and random_num % 2 == 0:
                 print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
             elif answer_is != 'yes' or 'no':
                 if random_num % 2 == 0:
