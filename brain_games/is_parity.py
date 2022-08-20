@@ -14,7 +14,7 @@ def parity_check():
     while correct_answ_count < 3:
         random_num = randint(1, 100)
         print(f'Question: {random_num}')
-        answer_is = prompt.string('Your answer: ')
+        answer_is = prompt.string('Your answer: ').lower()
         if answer_is == "yes" and random_num % 2 == 0:
             print('Correct')
             correct_answ_count += 1
@@ -26,11 +26,12 @@ def parity_check():
                 print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
             elif answer_is == 'no' and random_num %2 == 0:
                 print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
-            elif answer_is != 'yes' or 'no' and random_num % 2 == 0:
-                print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
-            elif answer_is != 'yes' or 'no' and random_num % 2 != 0:
-                print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
-            correct_answ_count = 0
+            elif answer_is != 'yes' or 'no':
+                if random_num % 2 == 0:
+                    print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+                elif random_num % 2 != 0:
+                    print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
+            return
     print(f"Congratulations, {name}!")
 
 parity_check()
