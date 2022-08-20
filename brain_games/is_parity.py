@@ -1,4 +1,4 @@
-from calendar import c
+from email.headerregistry import AddressHeader
 import prompt
 from random import randint
 
@@ -33,7 +33,4 @@ def parity_check():
                     print(f"'{answer_is}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
-
-parity_check()
-      
-         
+    return
