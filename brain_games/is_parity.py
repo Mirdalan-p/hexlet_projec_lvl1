@@ -10,7 +10,8 @@ print(f"Hello, {name}!")
 def parity_check():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     correct_answ_count = 0
-    while correct_answ_count < 3:
+    win_count = 3
+    while correct_answ_count < win_count:
         random_num = randint(1, 100)
         print(f'Question: {random_num}')
         answer_is = prompt.string('Your answer: ').lower()
