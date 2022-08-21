@@ -2,25 +2,25 @@ import prompt
 from random import randint
 
 
-print("brain-even\nWelcome to the Brain Games!")
+print("brain-even\n\n\nWelcome to the Brain Games!")
 name = prompt.string('May I have your name? ')
 print(f"Hello, {name}!")
 
 
 def parity_check():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    correct_answ_count = 0
-    win_count = 3
-    while correct_answ_count < win_count:
+    score = 0
+    win_score = 3
+    while score < win_score:
         random_num = randint(1, 100)
         print(f'Question: {random_num}')
         answer_is = prompt.string('Your answer: ').lower()
         if answer_is == "yes" and random_num % 2 == 0:
             print('Correct')
-            correct_answ_count += 1
+            score += 1
         elif answer_is == 'no' and random_num % 2 != 0:
             print('Correct')
-            correct_answ_count += 1
+            score += 1
         else:
             if answer_is == 'yes' and random_num % 2 != 0:
                 print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
