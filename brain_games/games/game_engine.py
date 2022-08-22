@@ -1,5 +1,4 @@
 import prompt
-import brain_games.games.is_parity
 def engine(game_name):
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
