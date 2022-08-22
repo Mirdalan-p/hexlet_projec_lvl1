@@ -1,5 +1,6 @@
 import prompt
 import brain_calc
+import is_parity
 
 def engine(game_name):
     (task, result, game) = game_name.game_logic()
@@ -23,5 +24,4 @@ def engine(game_name):
     print(f"Congratulations, {name}!")
     return      
 
-engine(brain_calc)
-    
+   
