@@ -12,13 +12,7 @@ from game_engine import engine
 
 
 def calculator():
-    game_name = "Brain-calc"
-    num_1 = randint(1, 100)
-    num_2 = randint(1, 100)
-    operators = ("+", "-", "*")
-    operator = choice(operators)
-    expression = f"{num_1} {operator} {num_2}"
-
+    game_name = "Brain-calc"    
     print(f"{game_name}\n\n\nWelcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
@@ -26,6 +20,11 @@ def calculator():
     score = 0
     win_score = 3
     while score < win_score:
+        num_1 = randint(1, 100)
+        num_2 = randint(1, 100)
+        operators = ("+", "-", "*")
+        operator = choice(operators)
+        expression = f"{num_1} {operator} {num_2}"
         print(f'Question: {expression}')
         if operator == "+":
             result = add(num_1, num_2)
