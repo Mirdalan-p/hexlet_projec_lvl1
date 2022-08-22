@@ -4,7 +4,7 @@ from brain_games.games.game_engine import engine
 
 
 def main():
-    print("Brain-calc\n\n\nWelcome to the Brain Games!")
+    print("Welcome to the Brain Games!")
     engine(brain_calc)
 
 

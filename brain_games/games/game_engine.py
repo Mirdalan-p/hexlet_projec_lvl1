@@ -1,5 +1,6 @@
 import prompt
 def engine(game_name):
+    question = game_name.game_logic()
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
     count = 0
