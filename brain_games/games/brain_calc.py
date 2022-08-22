@@ -1,10 +1,8 @@
-import prompt
-import math
 from random import randint, choice
-from game_engine import greeting
 
 
-def calculator():
+def game_logic():
+        game = "Brain-calc"
         num_1 = randint(1, 100)
         num_2 = randint(1, 100)
         operators = ("+", "-", "*")
@@ -16,4 +14,4 @@ def calculator():
             result = num_1 - num_2
         elif operator == "*":
             result = num_1 * num_2
-        return str(task), str(result)
+        return str(task), str(result), game

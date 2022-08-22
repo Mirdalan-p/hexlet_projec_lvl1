@@ -1,14 +1,16 @@
 import prompt
+import brain_calc
 
-
-def engine():
-    print(f"{game_name}\n\n\nWelcome to the Brain Games!")
+def engine(game_name):
+    (task, result, game) = game_name.game_logic()
+    print(f"{game}\n\n\nWelcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
     count = 0
     win_count = 3
 
     while count < win_count:
+        (task, result, game) = game_name.game_logic()
         print(f"Question: {task}")
         answer_is = prompt.string('Your answer:')
     
@@ -21,5 +23,5 @@ def engine():
     print(f"Congratulations, {name}!")
     return      
 
-    
+engine(brain_calc)
     
