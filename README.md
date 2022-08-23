@@ -7,7 +7,9 @@ Five different logical games with instructions inside.
 Install instructions:
   Clone the repository:
     git clone git@github.com:Mirdalan-p/python-project-49.git
-  Use Makefile:
+ 
+ Use Makefile:
+ 
     make install
     make build
     make publish
@@ -15,18 +17,17 @@ Install instructions:
 
 To start game just type its name:
 
-    brain-even 
-    https://asciinema.org/a/yNyX29PcCVMiQhCk17hAqphyh
+brain-even 
+    [![asciicast](https://asciinema.org/a/yNyX29PcCVMiQhCk17hAqphyh.svg)](https://asciinema.org/a/yNyX29PcCVMiQhCk17hAqphyh)
 
-    brain-calc
-    https://asciinema.org/a/YcLCizctFp7x2o6G3x9upB2Vb
+brain-calc
+    [![asciicast](https://asciinema.org/a/YcLCizctFp7x2o6G3x9upB2Vb.svg)](https://asciinema.org/a/YcLCizctFp7x2o6G3x9upB2Vb)
 
-    brain-gcd
-    https://asciinema.org/a/LYcgQ0pkiyzXvLzFRlcB0uGfU
+brain-gcd
+    [![asciicast](https://asciinema.org/a/LYcgQ0pkiyzXvLzFRlcB0uGfU.svg)](https://asciinema.org/a/LYcgQ0pkiyzXvLzFRlcB0uGfU)
 
-    brain-progression
-    https://asciinema.org/a/yXLmpNBA6W3nMt9OP0kqVZCRB
+brain-progression
+    [![asciicast](https://asciinema.org/a/yXLmpNBA6W3nMt9OP0kqVZCRB.svg)](https://asciinema.org/a/yXLmpNBA6W3nMt9OP0kqVZCRB)
 
-    brain-prime
-    https://asciinema.org/a/TJhoWpXz89ZmpSOrSxT9dz56y
-    
+brain-prime
+    [![asciicast](https://asciinema.org/a/TJhoWpXz89ZmpSOrSxT9dz56y.svg)](https://asciinema.org/a/TJhoWpXz89ZmpSOrSxT9dz56y)
