@@ -18,7 +18,7 @@ def game_logic():
         
         random_number = randint(0, (len(progression) - 1))
         result = str(progression[random_number])
+        progression[random_number] = '..'
         for i in progression:
-            progression[random_number] = '..'
             task = task + str(i) +  ' ' 
         return task, result
