@@ -3,6 +3,7 @@ import math
 
 question = "Find the greatest common divisor of given numbers."
 
+
 def game_logic():
     num_1 = randint(1, 100)
     num_2 = randint(1, 100)

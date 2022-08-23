@@ -2,6 +2,7 @@ from random import randint
 
 question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def game_logic():
     random_num = randint(1, 100)
     task = f"{random_num}"
@@ -15,4 +16,3 @@ def game_logic():
     else:
         result = 'no'
     return task, result
-        
