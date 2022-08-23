@@ -7,3 +7,5 @@ brain-calc asciinema:
 https://asciinema.org/a/YcLCizctFp7x2o6G3x9upB2Vb
 brain-gcd asciinema:
 https://asciinema.org/a/LYcgQ0pkiyzXvLzFRlcB0uGfU
+brain-progression asciinema:
+https://asciinema.org/a/yXLmpNBA6W3nMt9OP0kqVZCRB
