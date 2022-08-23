@@ -11,7 +11,7 @@ def engine(game_name):
         print(f"Question: {task}")
         answer_is = prompt.string('Your answer:')
         if answer_is == result:
-            print("correct")
+            print("Сorrect!")
             count += 1
         else:
             print(f"'{answer_is}' is wrong answer ;(. Correct answer was '{result}'.\nLet's try again, {name}")
