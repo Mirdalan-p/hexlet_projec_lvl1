@@ -14,6 +14,7 @@ Install instructions:
     make package-install
 
 To start game just type its name:
+
     brain-even 
     https://asciinema.org/a/yNyX29PcCVMiQhCk17hAqphyh
 
