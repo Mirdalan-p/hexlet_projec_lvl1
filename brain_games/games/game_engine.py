@@ -10,7 +10,7 @@ def engine(game_name):
     while count < win_count:
         (task, result) = game_name.game_logic()
         print(f"Question: {task}")
-        answer_is = prompt.string('Your answer:')
+        answer_is = prompt.string('Your answer: ')
         if answer_is == result:
             print("Сorrect!")
             count += 1
