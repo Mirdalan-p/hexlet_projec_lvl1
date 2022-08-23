@@ -4,15 +4,18 @@
 Description:
 Five different logical games with instructions inside.
 
-Install instructions:
-  Clone the repository:
+For install - clone the repository:
+    
     git clone git@github.com:Mirdalan-p/python-project-49.git
  
- Use Makefile:
+Use Makefile:
  
     make install
+    
     make build
+    
     make publish
+    
     make package-install
 
 To start game just type its name:
