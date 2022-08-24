@@ -18,10 +18,4 @@ def generate_round():
             result = 'no'
         return result
     result = prime_check()
-generate_round()
-
-
-
-
-
-    #return task, result
+    return task, result
