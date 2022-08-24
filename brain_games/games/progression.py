@@ -4,7 +4,7 @@ from random import randint
 GAME_QUESTION = 'What number is missing in the progression?'
 
 
-def game_logic():
+def generate_round():
     starting_number = randint(1, 50)
     progression_step = randint(1, 10)
     progression_lenght = randint(5, 10)

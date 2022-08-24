@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games import brain_calc, gcd, is_parity, is_prime, progression
+from brain_games.games import brain_calc, gcd, even, is_prime, progression
 
 
 ROUNDS_COUNT = 3
@@ -11,7 +11,7 @@ def run(game):
     print(f"{game.GAME_QUESTION}")
     
     for round in range(ROUNDS_COUNT):
-        (task, result) = game.game_logic()
+        (task, result) = game.generate_round()
         print(f"Question: {task}")
         answer_is = prompt.string('Your answer: ')
         if answer_is == result:

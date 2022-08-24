@@ -3,7 +3,7 @@ from random import randint
 GAME_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_logic():
+def generate_round():
     random_num = randint(1, 100)
     task = f"{random_num}"
     result = ''

@@ -3,7 +3,7 @@ from random import randint, choice
 GAME_QUESTION = "What is the result of the expression?"
 
 
-def game_logic():
+def generate_round():
     num_1 = randint(1, 100)
     num_2 = randint(1, 100)
     operators = ("+", "-", "*")

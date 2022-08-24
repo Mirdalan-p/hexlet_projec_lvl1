@@ -4,7 +4,7 @@ from random import randint
 GAME_QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_logic():
+def generate_round():
     random_num = randint(1, 100)
     task = random_num
     if random_num % 2 == 0:
