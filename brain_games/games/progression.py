@@ -17,12 +17,10 @@ def generate_round():
             progression.append(str(current_number))
             current_step += 1
         return progression
-    
-    
     progression = generate_progression()
     random_number = randint(0, (len(progression) - 1))
     result = str(progression[random_number])
     progression[random_number] = '..'
     task = ' '.join(progression)
-    
+
     return task, result
