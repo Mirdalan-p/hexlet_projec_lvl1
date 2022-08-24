@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games import brain_calc, gcd, even, is_prime, progression
+from brain_games.games import brain_calc, gcd, even, prime, progression
 
 
 ROUNDS_COUNT = 3
