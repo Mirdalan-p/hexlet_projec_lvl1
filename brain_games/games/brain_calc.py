@@ -1,6 +1,6 @@
 from random import randint, choice
 
-question = "What is the result of the expression?"
+GAME_QUESTION = "What is the result of the expression?"
 
 
 def game_logic():

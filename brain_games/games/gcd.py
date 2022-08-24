@@ -1,7 +1,7 @@
 from random import randint
 import math
 
-question = "Find the greatest common divisor of given numbers."
+GAME_QUESTION = "Find the greatest common divisor of given numbers."
 
 
 def game_logic():

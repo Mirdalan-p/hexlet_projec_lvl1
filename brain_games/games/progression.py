@@ -1,7 +1,7 @@
 from random import randint
 
 
-question = 'What number is missing in the progression?'
+GAME_QUESTION = 'What number is missing in the progression?'
 
 
 def game_logic():

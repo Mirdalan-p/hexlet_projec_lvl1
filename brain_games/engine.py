@@ -1,4 +1,6 @@
 import prompt
+from brain_games.games import brain_calc, gcd, is_parity, is_prime, progression
+
 
 ROUNDS_COUNT = 3
 
@@ -6,7 +8,7 @@ ROUNDS_COUNT = 3
 def run(game):
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
-    print(f"{game_name.question}")
+    print(f"{game.GAME_QUESTION}")
     
     for round in range(ROUNDS_COUNT):
         (task, result) = game.game_logic()
@@ -14,10 +16,9 @@ def run(game):
         answer_is = prompt.string('Your answer: ')
         if answer_is == result:
             print("Сorrect!")
-            count += 1
         else:
-            print(f"'{answer_is}' is wrong answer ;(. \
-                Correct answer was '{result}'.\nLet's try again, {name}!")
+            print(f"'{answer_is}' is wrong answer ;(. "\
+                f"Correct answer was '{result}'.\nLet's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
     return
