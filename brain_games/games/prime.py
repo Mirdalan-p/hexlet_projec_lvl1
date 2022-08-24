@@ -6,7 +6,7 @@ GAME_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def generate_round():
     random_num = randint(0, 100)
     task = f"{random_num}"
-    
+
     def prime_check():
         i = 0
         for devider in range(2, (random_num // 2 + 1)):

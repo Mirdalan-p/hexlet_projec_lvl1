@@ -2,6 +2,7 @@
 from brain_games.games import prime
 from brain_games.engine import run
 
+
 def main():
     print("Welcome to the Brain Games!")
     run(prime)
