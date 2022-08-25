@@ -4,10 +4,10 @@ GAME_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-        i = 0
-        for devider in range(2, (num // 2 + 1)):
-            if num % devider == 0:
-                i += 1
+    i = 0
+    for devider in range(2, (num // 2 + 1)):
+        if num % devider == 0:
+            i += 1
         if num < 2:
             result = 'no'
         elif i == 0:
