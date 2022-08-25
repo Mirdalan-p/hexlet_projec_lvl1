@@ -19,5 +19,5 @@ def generate_round():
     num_2 = randint(1, 100)
     task = (f"{num_1} {num_2}")
     result = gcd(num_1, num_2)
-    
+ 
     return task, result
