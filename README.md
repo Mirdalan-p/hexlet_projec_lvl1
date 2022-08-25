@@ -1,5 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Mirdalan-p/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Mirdalan-p/python-project-49/actions)
+### Codeclimate status:
+<a href="https://codeclimate.com/github/Mirdalan-p/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/0f186ecc93d9f31ac76d/maintainability" /></a>
 
 Description:
 Five different logical games with instructions inside.
