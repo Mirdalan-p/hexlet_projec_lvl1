@@ -3,18 +3,13 @@ from random import randint
 GAME_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(num):
-    i = 0
-    for devider in range(2, (num // 2 + 1)):
-        if num % devider == 0:
-            i += 1
-        if num < 2:
-            result = 'no'
-        elif i == 0:
-            result = 'yes'
-        else:
-            result = 'no'
-        return result
+def is_prime(random_num):
+    if random_num < 2:
+        return 'no'
+    for i in range(2, random_num):
+        if random_num % i == 0:
+            return 'no'
+    return 'yes'
 
 
 def generate_round():
